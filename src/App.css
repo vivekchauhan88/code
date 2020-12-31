@@ -1,0 +1,137 @@
+
+.app{
+	height: 460vmin;
+	text-align: center;
+	background-color: #fffeea;
+}
+
+.nav{
+	height: 14vmin;
+	background-color: black;
+}
+.navr{
+	padding-top: 3.5vh;
+	color: white;
+	font-size: 85%;
+	float: right;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #bbbbbb !important;
+}
+.app-logo{
+	height: 8vmin;
+	background-color: #ffffff;
+	float: left;
+	margin-left: 4vmin;
+	margin-top: 3vmin;
+}
+.text1{
+	margin-left: 2vmin;
+	margin-top: 4vmin;
+	float: left;
+	font-size: 120%;
+	color: white;
+}
+.app-poster{
+	height: 85vmin;
+	margin-top: 5vmin;
+}
+.fast{
+	font-size: 250%;
+	font-weight: bold;
+	margin-top: 15vmin;
+}
+.startup{
+	font-size: 250%;
+	font-weight: bold;
+}
+.virtual{
+	margin-top: 12vmin;
+}
+.butto{
+	margin-top: 5vmin;
+}
+.ideas{
+	background-color: black;
+	color: white;
+	width: 90%;
+	margin: auto;
+}
+.insights{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.butto1{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.app-cool{
+	width: 420px;
+  height: 250px;
+	margin-top: 20px;
+}
+.app-matrix{
+	width: auto;
+  height: 250px;
+	margin-top: 20px;
+}
+.app-globe{
+	width: 90%;
+  height: 250px;
+	margin-top: 20px;
+}
+.featured{
+	float: left;
+	margin-left: 20px;
+}
+.butto2{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.work{
+	width: 90%;
+	margin: auto;
+}
+.app-wise{
+	height: 250px;
+	width: 420px;
+	margin-top: 20px;
+}
+.app-bahi{
+	height: 250px;
+	width: 420px;
+	margin-top: 20px;
+}
+.app-naija{
+	height: 250px;
+	width: 420px;
+	margin-top: 20px;
+	background-color: #cccccc;
+}
+.app-quezx{
+	height: 250px;
+	width: 420px;
+	margin-top: 20px;
+}
+.app-make{
+	width: 90%;
+  height: 250px;
+	margin-top: 20px;
+}
+.foot{
+	height: 20vmin;
+	text-align: left;
+	color: #cccccc;
+	background-color: black;
+	padding-top: 20px;
+	padding-left: 30px;
+}
