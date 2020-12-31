@@ -118,7 +118,7 @@ function App() {
     </Col></Row>
     <Row><Col>
     <Image src={make} className="app-make" alt="make" rounded/>
-    <br />Makerazza - A Multiplayer Trivia Game<br />
+    <br />Makerazza - A Multiplayer Trivia Incident<br />
     <br /><br />
     </Col></Row>
     </Container>
