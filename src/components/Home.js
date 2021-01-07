@@ -9,7 +9,7 @@ import quezx from '../images/quezx.jpeg';
 import make from '../images/make.jpg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Row, Col, Container, Nav, Image, Button} from 'react-bootstrap';
+import {Row, Col, Container, Image, Button} from 'react-bootstrap';
 
 function Home() {
   return (

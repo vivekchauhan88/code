@@ -31,7 +31,6 @@ const Contact = () => {
                 <Form.Label>Kindly tell us your Idea in brief and we'll be in touch shortly.
                 </Form.Label>
                 <Form.Control as="textarea" rows={3} />
-                <Form.Control />
               </Col>
             </Row>
             <Row>
