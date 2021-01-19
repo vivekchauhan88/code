@@ -10,8 +10,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter>  
   <div className="app">
+  <div className="flex-wrapper">  
   <Navigation />
   <Switch>
     <Route path="/" exact component={Home}/>
@@ -20,8 +21,8 @@ function App() {
     <Route component={Error}/>
   </Switch>
   <Footer />
+  </div>
 	</div>
-
   </BrowserRouter>
   );
 }

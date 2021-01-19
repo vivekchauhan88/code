@@ -126,6 +126,12 @@ a:hover {
   height: 250px;
 	margin-top: 20px;
 }
+.flex-wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .foot{
 	height: 20vmin;
 	text-align: left;
