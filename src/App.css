@@ -15,13 +15,13 @@
 	float: right;
 }
 a:link {
-  color: white;
+	color: white;
 }
 a:visited {
-  color: white;
+	color: white;
 }
 a:hover {
-  color: #bbbbbb !important;
+	color: #bbbbbb !important;
 }
 .app-logo{
 	height: 8vmin;
@@ -73,18 +73,18 @@ a:hover {
 	margin-right: 20px;
 }
 .app-cool{
-	width: 420px;
-  height: 250px;
+	width: 90%;
+  	height: 250px;
 	margin-top: 20px;
 }
 .app-matrix{
-	width: auto;
-  height: 250px;
+	width: 90%;
+  	height: 250px;
 	margin-top: 20px;
 }
 .app-globe{
 	width: 90%;
-  height: 250px;
+  	height: 250px;
 	margin-top: 20px;
 }
 .featured{
@@ -102,28 +102,28 @@ a:hover {
 }
 .app-wise{
 	height: 250px;
-	width: 420px;
+	width: 90%;
 	margin-top: 20px;
 }
 .app-bahi{
 	height: 250px;
-	width: 420px;
+	width: 90%;
 	margin-top: 20px;
 }
 .app-naija{
 	height: 250px;
-	width: 420px;
+	width: 90%;
 	margin-top: 20px;
 	background-color: #cccccc;
 }
 .app-quezx{
 	height: 250px;
-	width: 420px;
+	width: 90%;
 	margin-top: 20px;
 }
 .app-make{
 	width: 90%;
-  height: 250px;
+  	height: 250px;
 	margin-top: 20px;
 }
 .flex-wrapper {

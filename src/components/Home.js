@@ -42,11 +42,11 @@ function Home() {
     <a href="/insights"><Button variant="light" size="sm">View All</Button></a>
     </div>
     </Col></Row><Row>
-    <Col><Image src={cool} className="app-cool" alt="cool" rounded/>
+    <Col sm={6}><Image src={cool} className="app-cool" alt="cool" rounded/>
     <br />Sticking to your businessplan in a noisy world ?<br />
     <Button variant="outline-light" size="sm">Read More</Button>
     </Col>
-    <Col><Image src={matrix} className="app-matrix" alt="matrix" rounded/>
+    <Col sm={6}><Image src={matrix} className="app-matrix" alt="matrix" rounded/>
     <br />How to pick a technical co-founder/partner ?<br />
     <Button variant="outline-light" size="sm">Read More</Button>
     </Col></Row>
@@ -70,17 +70,17 @@ function Home() {
     <a href="/casestudies"><Button variant="dark" size="sm">View All</Button></a>
     </div>
     </Col></Row><Row>
-    <Col><Image src={wise} className="app-wise" alt="wise" rounded/>
+    <Col sm={6}><Image src={wise} className="app-wise" alt="wise" rounded/>
     <br />WisePilgrim - Offline Travel Companion<br />
     </Col>
-    <Col><Image src={bahi} className="app-bahi" alt="bahi" rounded/>
+    <Col sm={6}><Image src={bahi} className="app-bahi" alt="bahi" rounded/>
     <br />Bahi Khata - Accounting is the language of Business<br />
     </Col></Row>
     <Row>
-    <Col><Image src={naija} className="app-naija" alt="naija" rounded/>
+    <Col sm={6}><Image src={naija} className="app-naija" alt="naija" rounded/>
     <br />Naijamee - Virtual World for Kids<br />
     </Col>
-    <Col><Image src={quezx} className="app-quezx" alt="quezx" rounded/>
+    <Col sm={6}><Image src={quezx} className="app-quezx" alt="quezx" rounded/>
     <br />QuezX - Read curated news in 15 sec<br />
     </Col></Row>
     <Row><Col>
