@@ -3,16 +3,9 @@
 	text-align: center;
 	background-color: #fffeea;
 }
-
 .nav{
-	height: 14vmin;
-	background-color: black;
-}
-.navr{
-	padding-top: 3.5vh;
-	color: white;
-	font-size: 85%;
-	float: right;
+	/*height: 14vmin;
+	background-color: black;*/
 }
 a:link {
 	color: white;
@@ -21,21 +14,19 @@ a:visited {
 	color: white;
 }
 a:hover {
-	color: #bbbbbb !important;
+	color: #bbbbbb;
 }
 .app-logo{
 	height: 8vmin;
 	background-color: #ffffff;
 	float: left;
 	margin-left: 4vmin;
-	margin-top: 3vmin;
+	margin-top: 2vmin;
 }
 .text1{
 	margin-left: 2vmin;
-	margin-top: 4vmin;
+	margin-top: 3vmin;
 	float: left;
-	font-size: 120%;
-	color: white;
 }
 .app-poster{
 	height: 85vmin;

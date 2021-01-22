@@ -1,7 +1,7 @@
 import logo from '../images/logo.png';
 import '../App.css';
 import React from 'react';
-import {Row, Col, Container, Nav, Image} from 'react-bootstrap';
+import {Row, Col, Container, Nav, Navbar, Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { NavLink } from 'react-router-dom';
 
@@ -9,13 +9,20 @@ const Navigation = () => {
     return (
        <div className="nav">
        <Container fluid><Row>
-       <Col>
-         <Image src={logo} className="app-logo" alt="logo" rounded />
+        <Col>
+       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+      
+       <Navbar.Brand href="/">
+       <Image src={logo} className="app-logo" alt="logo" rounded />
          <p className="text1">
          Ninja Monk Labs
          </p>
+        </Navbar.Brand>
+      
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
 
-       <Nav className="navr" activeKey="/">
+      <Nav className="ml-auto">
          <Nav.Item>
            <Nav.Link href="/">HOME</Nav.Link>
          </Nav.Item>
@@ -36,10 +43,11 @@ const Navigation = () => {
          </Nav.Item>
        </Nav>
 
-       </Col>
-       </Row></Container>
-       </div>
-
+       </Navbar.Collapse>
+      </Navbar>
+      </Col>
+      </Row></Container>
+      </div>
     );
 }
 
